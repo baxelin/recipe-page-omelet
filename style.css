@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: "Young Serif", serif;
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    font-size: 16px;
+}
+
+.card {
+    background-color: white;
+    margin: 4em;
+    width: 50em;
+    height: auto;
+    border-radius: 15px;
+}
+
+.first-container {
+    margin: 2.3em;
+    width: 90%;
+    height: 90%;
+}
+
+.banner {
+    width: 100%;
+    border-radius: 15px;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+p {
+    font-family: "Outfit", sans-serif;
+    font-size: 100%;
+    font-weight: 300;
+}
+
+.resume-box {
+    width: auto;
+    height: auto;
+    padding: 0.1em;
+    background-color: hsl(332, 51%, 95%);
+    border-radius: 15px;
+    font-size: 100%;
+    color: hsl(30, 10%, 34%);
+}
+
+.resume-box h3 {
+    font-family: "Outfit";
+    color: hsl(332, 51%, 32%);
+    margin: 1em;
+    margin-bottom: 0;
+}
+
+.resume-box ul{
+    margin-top: 1em;
+    font-weight: 200;
+    font-family: "Outfit";
+}
+
+.resume-box li{
+    margin: 0.5em;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-weight: 100;
+}
+
+.ingredients-box ul {
+    margin-left: -1em;
+    font-weight: 200;
+    font-family: "Outfit";
+}
+
+hr {
+    border: none;
+    background-color: hsl(30, 10%, 34%);
+    border-top: solid 1px #ccc;
+    height: 0;
+    margin: 2em 0;
+}
+
+.instructions-box {
+    margin: 0;
+}
+
+.instructions-box ol {
+    font-family: "Outfit", sans-serif;
+    font-weight: 200;
+    margin-left: -1em;
+}
+
+.instructions-box li {
+    margin: 1em 0;
+}
+
+.nutrition-box p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 200;
+}
+
+.table {
+    display: flex;
+    font-family: "Outfit";
+}
+
+.table-1 {
+    width: 50%;    
+}
+
+.table-2 {
+    width: 50%;
+}
+
+.table hr {
+    border: none;
+    background-color: hsl(30, 10%, 34%);
+    border-top: solid 1px #ccc;
+    height: 0;
+}
+
+.table-2 p {
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+}
+
+.table-1 p,
+.table-2 p,
+.table-1 hr,
+.table-2 hr {
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+}
